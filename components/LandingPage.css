@@ -1,0 +1,129 @@
+.landing-page-div{
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flyer-body{
+    margin-top: 50px;
+}
+
+.theta-tau-coat{
+    margin-top: 10px;
+}
+
+.coat-image {
+    width: 200px;
+    height: 320px;
+}
+
+.coat-image:hover{
+    cursor: pointer;
+}
+
+.gold-text {
+    color: gold !important;
+}
+
+.bottom-row{
+    width: inherit;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.social-media-section{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.addresses {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.address-entry {
+    margin: 20px;
+}
+
+.link-no-deco {
+    text-decoration: none !important;
+}
+
+.link-no-deco:hover{
+    color: goldenrod !important;
+    transition: 0.5s;
+}
+
+/*Shine effect for link*/
+.link {
+    font-size: 30px;
+    text-decoration: none !important;
+    color:gold;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    width: 100%;
+  }
+  .link:hover{
+      color: goldenrod !important;
+      transition: 0.5s;
+  }
+  
+  /* Logo Rotate animation*/
+  .coat-image:hover {
+    -webkit-animation-name: spinner; 
+   -webkit-animation-timing-function: linear; 
+   -webkit-animation-iteration-count: 1; 
+   -webkit-animation-duration: 1s;
+   animation-name: spinner; 
+   animation-timing-function: linear; 
+   animation-iteration-count: 1; 
+   animation-duration: 1s; 
+   -webkit-transform-style: preserve-3d; 
+   -moz-transform-style: preserve-3d; 
+   -ms-transform-style: preserve-3d; 
+   transform-style: preserve-3d;
+ }
+ 
+  
+ 
+ 
+ /* WebKit and Opera browsers */ 
+ @-webkit-keyframes spinner { 
+   from 
+   { 
+     -webkit-transform: rotateY(0deg); 
+   } 
+   to { 
+     -webkit-transform: rotateY(-360deg); 
+   } 
+ } 
+ /* all other browsers */ 
+ @keyframes spinner { 
+    from { 
+     -moz-transform: rotateY(0deg); 
+     -ms-transform: rotateY(0deg); 
+     transform: rotateY(0deg); 
+    } 
+    to 
+    { 
+     -moz-transform: rotateY(-360deg); 
+     -ms-transform: rotateY(-360deg); 
+     transform: rotateY(-360deg); 
+ 
+    } 
+ }
+
+.event-entry{
+    margin-top: 30px;
+}
+
